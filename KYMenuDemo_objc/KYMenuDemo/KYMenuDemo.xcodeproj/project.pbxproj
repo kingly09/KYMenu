@@ -13,7 +13,7 @@
 		BC765A2F1DA1395B00FCE77A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC765A2D1DA1395B00FCE77A /* Main.storyboard */; };
 		BC765A311DA1395B00FCE77A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC765A301DA1395B00FCE77A /* Assets.xcassets */; };
 		BC765A341DA1395B00FCE77A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC765A321DA1395B00FCE77A /* LaunchScreen.storyboard */; };
-		BC765A3D1DA139F800FCE77A /* KYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC765A3C1DA139F800FCE77A /* KYMenu.m */; };
+		BC765A411DA2184E00FCE77A /* KYMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BC765A401DA2184E00FCE77A /* KYMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		BC765A301DA1395B00FCE77A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC765A331DA1395B00FCE77A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC765A351DA1395B00FCE77A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC765A3B1DA139F800FCE77A /* KYMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KYMenu.h; path = ../../KYMenu/KYMenu.h; sourceTree = "<group>"; };
-		BC765A3C1DA139F800FCE77A /* KYMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KYMenu.m; path = ../../KYMenu/KYMenu.m; sourceTree = "<group>"; };
+		BC765A3F1DA2184E00FCE77A /* KYMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYMenu.h; sourceTree = "<group>"; };
+		BC765A401DA2184E00FCE77A /* KYMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,7 @@
 		BC765A231DA1395B00FCE77A /* KYMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BC765A3B1DA139F800FCE77A /* KYMenu.h */,
-				BC765A3C1DA139F800FCE77A /* KYMenu.m */,
+				BC765A3E1DA2184E00FCE77A /* KYMenu */,
 				BC765A271DA1395B00FCE77A /* AppDelegate.h */,
 				BC765A281DA1395B00FCE77A /* AppDelegate.m */,
 				BC765A2A1DA1395B00FCE77A /* ViewController.h */,
@@ -82,6 +81,16 @@
 				BC765A251DA1395B00FCE77A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC765A3E1DA2184E00FCE77A /* KYMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BC765A3F1DA2184E00FCE77A /* KYMenu.h */,
+				BC765A401DA2184E00FCE77A /* KYMenu.m */,
+			);
+			name = KYMenu;
+			path = ../../../KYMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC765A3D1DA139F800FCE77A /* KYMenu.m in Sources */,
+				BC765A411DA2184E00FCE77A /* KYMenu.m in Sources */,
 				BC765A2C1DA1395B00FCE77A /* ViewController.m in Sources */,
 				BC765A291DA1395B00FCE77A /* AppDelegate.m in Sources */,
 				BC765A261DA1395B00FCE77A /* main.m in Sources */,
@@ -308,6 +317,7 @@
 				BC765A3A1DA1395B00FCE77A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
