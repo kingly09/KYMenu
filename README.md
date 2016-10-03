@@ -5,3 +5,4 @@ KYmenu is the iOS application in the use of highly customized UI vertical
 ```
 pod 'KYMenu', '~> 0.0.2'
 ```
+# How to use:
