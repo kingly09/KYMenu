@@ -1,0 +1,10 @@
+PODS:
+  - KYMenu (0.0.2)
+
+DEPENDENCIES:
+  - KYMenu (~> 0.0.2)
+
+SPEC CHECKSUMS:
+  KYMenu: 956ed4a2a5db7bec655e7f6514fa4e9aac19e867
+
+COCOAPODS: 0.39.0

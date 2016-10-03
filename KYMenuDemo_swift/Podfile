@@ -1,0 +1,5 @@
+platform:ios,'7.0'
+target "KYMenuDemo_swift" do
+pod 'KYMenu', '~> 0.0.2'
+
+end
