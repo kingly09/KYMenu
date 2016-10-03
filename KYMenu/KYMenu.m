@@ -370,7 +370,7 @@
     const CGFloat kMarginY = self.kYMenuViewOptions.marginYSpacing;
 
     UIFont *titleFont = [KYMenu titleFont];
-    if (!titleFont) titleFont = [UIFont boldSystemFontOfSize:16];
+    if (!titleFont) titleFont = [UIFont systemFontOfSize:16];
 
     CGFloat maxImageWidth = 0;
     CGFloat maxItemHeight = 0;
@@ -500,8 +500,16 @@
             titleLabel.textAlignment = menuItem.alignment;
 
             //配置：menuItem字体颜色
-            //titleLabel.textColor = menuItem.foreColor ? menuItem.foreColor : [UIColor blackColor];
             titleLabel.textColor = [UIColor colorWithRed:self.kYMenuViewOptions.textColor.R green:self.kYMenuViewOptions.textColor.G blue:self.kYMenuViewOptions.textColor.B alpha:1];
+
+            if (menuItem.foreColor) {
+                titleLabel.textColor = menuItem.foreColor ? menuItem.foreColor : [UIColor blackColor];
+            }
+
+            UIColor *titleTextColor = [KYMenu titleTextColor];
+            if (titleTextColor) {
+                titleLabel.textColor = titleTextColor;
+            }
 
             titleLabel.backgroundColor = [UIColor clearColor];
 
@@ -790,6 +798,7 @@
 static KYMenu *gMenu;
 static UIColor *gTintColor;
 static UIFont *gTitleFont;
+static UIColor *gTitleTextColor;
 
 @implementation KYMenu {
 
@@ -903,6 +912,18 @@ static UIFont *gTitleFont;
 {
     if (titleFont != gTitleFont) {
         gTitleFont = titleFont;
+    }
+}
+
++ (UIColor *) titleTextColor
+{
+    return gTitleTextColor;
+}
+
++ (void) setTitleTextColor: (UIColor *) titleTextColor
+{
+    if (titleTextColor != gTitleTextColor) {
+        gTitleTextColor = titleTextColor;
     }
 }
 

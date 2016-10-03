@@ -74,11 +74,15 @@ typedef enum {
             withOptions:(OptionalConfiguration) options;
 
 + (void) dismissMenu;
-
+//menuItem背景的颜色
 + (UIColor *) tintColor;
 + (void) setTintColor: (UIColor *) tintColor;
-
+//menuItem字体
 + (UIFont *) titleFont;
 + (void) setTitleFont: (UIFont *) titleFont;
+//menuItem字体颜色
++ (UIColor *) titleTextColor;
++ (void) setTitleTextColor: (UIColor *) titleTextColor;
+
 
 @end
