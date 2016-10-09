@@ -32,17 +32,17 @@ menuArray = @[[KYMenuItem menuItem:@"发起多人聊天" image:[UIImage imageNam
     menuBackgroundColor.B = 1;
 
 
-    optionals.arrowSize = 9;                    //指示箭头大小
-    optionals.marginXSpacing = 7;               //MenuItem左右边距
-    optionals.marginYSpacing = 9;               //MenuItem上下边距
-    optionals.intervalSpacing = 25;             //MenuItemImage与MenuItemTitle的间距
-    optionals.menuCornerRadius = 6.5 ;          //菜单圆角半径
-    optionals.maskToBackground = YES ;          //是否添加覆盖在原View上的半透明遮罩
-    optionals.shadowOfMenu     = NO  ;          //是否添加菜单阴影
-    optionals.hasSeperatorLine = YES ;          //是否设置分割线
-    optionals.seperatorLineHasInsets = NO ;     //是否在分割线两侧留下Insets
-    optionals.textColor = textColor;            //menuItem字体颜色
-    optionals.menuBackgroundColor = menuBackgroundColor; //菜单的底色
+    optionals.arrowSize = 9;                    // arrow size
+    optionals.marginXSpacing = 7;               // MenuItem left and right margins
+    optionals.marginYSpacing = 9;               // MenuItem upper and lower margins
+    optionals.intervalSpacing = 25;             // MenuItemImage and MenuItemTitle
+    optionals.menuCornerRadius = 6.5 ;          // menu radius
+    optionals.maskToBackground = YES ;          // Whether to add translucent mask on the cover in the original View
+    optionals.shadowOfMenu     = NO  ;          // add menu is the shadow
+    optionals.hasSeperatorLine = YES ;          // set split line
+    optionals.seperatorLineHasInsets = NO ;     // Whether to leave the line on both sides of the Insets
+    optionals.textColor = textColor;            // menuItem font color
+    optionals.menuBackgroundColor = menuBackgroundColor; // The menu background
                       
 ```
 
@@ -71,17 +71,18 @@ let menuArray = [
 
 ```
 let options = OptionalConfiguration(
-            arrowSize: 9,               //指示箭头大小
-            marginXSpacing: 7,          //MenuItem左右边距
-            marginYSpacing: 9,          //MenuItem上下边距
-            intervalSpacing: 25,        //MenuItemImage与MenuItemTitle的间距
-            menuCornerRadius: 6.5,      //菜单圆角半径
-            maskToBackground: true,     //是否添加覆盖在原View上的半透明遮罩
-            shadowOfMenu: false,        //是否添加菜单阴影
-            hasSeperatorLine: true,     //是否设置分割线
-            seperatorLineHasInsets: false,                //是否在分割线两侧留下Insets
-            textColor: Color(R: 0, G: 0, B: 0),           //menuItem字体颜色
-            menuBackgroundColor: Color(R: 1, G: 1, B: 1)  //菜单的底色
+            arrowSize: 9,               // arrow size
+            marginXSpacing: 7,          // MenuItem left and right margins
+            marginYSpacing: 9,          // MenuItem upper and lower margins
+            intervalSpacing: 25,        // MenuItemImage and MenuItemTitle
+            menuCornerRadius: 6.5,      // menu radius
+            maskToBackground: true,     // Whether to add translucent mask on the cover in the original View
+            shadowOfMenu: false,        // add menu is the shadow
+            hasSeperatorLine: true,     // set split line
+            seperatorLineHasInsets: false,                // Whether to leave the line on both sides of the Insets
+            textColor: Color(R: 0, G: 0, B: 0),           // menuItem font color
+            menuBackgroundColor: Color(R: 1, G: 1, B: 1)  // The menu background
+
         )
 ```
 
