@@ -3,7 +3,7 @@ KYmenu is the iOS application in the use of highly customized UI vertical
    pop-up menu.
 # Installation
 ```
-pod 'KYMenu', '~> 0.0.2'
+pod 'KYMenu', '~> 0.0.4'
 ```
 # How to use
 #### How to use **Object-C** to achieve the following:
