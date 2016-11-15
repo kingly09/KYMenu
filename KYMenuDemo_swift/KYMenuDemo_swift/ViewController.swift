@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
 
 
-    @IBAction func onClickButton(sender: AnyObject) {
+    @IBAction func onClickButton(_ sender: AnyObject) {
         //设置内容数据
         let menuArray = [
                         KYMenuItem.init("创建讨论组", image: UIImage(named: "right_menu_multichat"), target: self, action: #selector(ViewController.toRespondMenu(_:))),
@@ -48,12 +48,12 @@ class ViewController: UIViewController {
         //设置文本字体
         KYMenu.setTitleFont(UIFont(name: "HelveticaNeue", size: 14))
         //menuItem字体颜色
-        KYMenu.setTitleTextColor(UIColor.grayColor());
+        KYMenu.setTitleTextColor(UIColor.gray);
         //菜单展示
-        KYMenu.showMenuInView(self.view, fromRect: sender.frame, menuItems: menuArray, withOptions: options)
+        KYMenu.show(in: self.view, from: sender.frame, menuItems: menuArray, withOptions: options)
     }
 
-    func toRespondMenu(sender : AnyObject) {
+    func toRespondMenu(_ sender : AnyObject) {
 
     }
 }

@@ -125,6 +125,7 @@
 				TargetAttributes = {
 					BC765A4A1DA218E000FCE77A = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -336,6 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KYMenuDemo_swift/KYMenuDemo_swift-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -350,6 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kingly09.KYMenuDemo-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "KYMenuDemo_swift/KYMenuDemo_swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

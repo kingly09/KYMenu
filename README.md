@@ -1,6 +1,10 @@
 # KYMenu
 KYmenu is the iOS application in the use of highly customized UI vertical
    pop-up menu.
+
+Support swift 3.
+
+
 # Installation
 ```
 pod 'KYMenu', '~> 0.0.4'
@@ -15,11 +19,11 @@ menuArray = @[[KYMenuItem menuItem:@"发起多人聊天" image:[UIImage imageNam
                   [KYMenuItem menuItem:@"扫一扫" image:[UIImage imageNamed:@"right_menu_QR"] target:self action:@selector(onMenuItemAction:)],
                   [KYMenuItem menuItem:@"面对面快传" image:[UIImage imageNamed:@"right_menu_facetoface"] target:self action:@selector(onMenuItemAction:)],
                   [KYMenuItem menuItem:@"付款" image:[UIImage imageNamed:@"right_menu_payMoney"] target:self action:@selector(onMenuItemAction:)]];
-                  
+
 ```
 
 2.extended parameter settings
-                  
+
 ```
     Color textColor;
     textColor.R = 0;
@@ -43,7 +47,7 @@ menuArray = @[[KYMenuItem menuItem:@"发起多人聊天" image:[UIImage imageNam
     optionals.seperatorLineHasInsets = NO ;     // Whether to leave the line on both sides of the Insets
     optionals.textColor = textColor;            // menuItem font color
     optionals.menuBackgroundColor = menuBackgroundColor; // The menu background
-                      
+
 ```
 
 3.display menu content
@@ -89,7 +93,7 @@ let options = OptionalConfiguration(
 3.display menu content
 
 ```
-KYMenu.showMenuInView(self.view, fromRect: sender.frame, menuItems: menuArray, withOptions: options)
+KYMenu.show(in: self.view, from: sender.frame, menuItems: menuArray, withOptions: options)
 ```
 
 # More parameter settings
@@ -97,11 +101,11 @@ KYMenu.showMenuInView(self.view, fromRect: sender.frame, menuItems: menuArray, w
 ### Set text font
 
 ```
- KYMenu.setTitleFont(UIFont(name: "HelveticaNeue", size: 14))
+KYMenu.setTitleFont(UIFont(name: "HelveticaNeue", size: 14))
 ```
 
 ### Set menuItem font color
 
 ```
- KYMenu.setTitleTextColor(UIColor.grayColor());
+KYMenu.setTitleTextColor(UIColor.gray);
 ```
