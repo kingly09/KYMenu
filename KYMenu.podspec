@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "KYMenu"
-s.summary      = "KYmenu is the iOS application in the use of highly customized UI vertical pop-up menu."
+s.summary      = "KYmenu is the iOS application in the use of highly customized UI vertical pop-up menu.Support swift 3."
 s.version      = '0.0.5'
 s.homepage     = "https://github.com/kingly09/KYMenu"
 s.license      = { :type => "MIT", :file => "LICENSE" }
