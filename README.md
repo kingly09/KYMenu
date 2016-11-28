@@ -5,6 +5,9 @@ KYmenu is the iOS application in the use of highly customized UI vertical
 Support swift 3.
 
 
+![](https://raw.githubusercontent.com/kingly09/KYMenu/master/KYMenu.gif)
+
+
 # Installation
 ```
 pod 'KYMenu', '~> 0.0.4'
