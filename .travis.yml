@@ -1,0 +1,5 @@
+language: objective-c
+xcode_project: KYMenuDemo_objc/KYMenuDemo/KYMenuDemo.xcodeproj
+xcode_schemes: KYMenuDemo_objc/KYMenuDemo/
+
+
