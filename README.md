@@ -32,6 +32,8 @@ github "kingly09/KYMenu" ~> 0.0.4
 ```
 Run `carthage` to build the framework and drag the built `KYMenu.framework` into your Xcode project.
 
+[How to use Carthage](https://my.oschina.net/kinglyphp/blog/1560525)
+
 # How to use
 #### How to use **Object-C** to achieve the following:
 1.basic parameter settings
