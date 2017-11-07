@@ -18,7 +18,7 @@ pod 'KYMenu', '~> 0.0.4'
 
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
 
-You can install Carthage with Homebrew using the following command:
+You can install Carthage with [Homebrew](https://brew.sh/)  using the following command:
 
 ```
 $ brew update
