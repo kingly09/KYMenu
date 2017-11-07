@@ -12,6 +12,26 @@ Support swift 3.
 ```
 pod 'KYMenu', '~> 0.0.4'
 ```
+
+# Installation with Carthage
+
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with Homebrew using the following command:
+
+```
+$ brew update
+$ brew install carthage
+```
+
+To integrate `KYMenu` into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```
+github "kingly09/KYMenu" ~> 0.0.4
+```
+Run `carthage` to build the framework and drag the built `KYMenu.framework` into your Xcode project.
+
 # How to use
 #### How to use **Object-C** to achieve the following:
 1.basic parameter settings
