@@ -10,7 +10,7 @@ Support swift 3.
 
 # Installation
 ```
-pod 'KYMenu', '~> 0.0.4'
+pod 'KYMenu', '~> 0.0.6'
 ```
 
 # Installation with Carthage
