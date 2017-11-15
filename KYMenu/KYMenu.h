@@ -29,7 +29,7 @@ typedef struct{
     CGFloat R;
     CGFloat G;
     CGFloat B;
-
+    
 }Color;
 
 typedef struct {
@@ -40,21 +40,23 @@ typedef struct {
     CGFloat menuCornerRadius;
     Boolean maskToBackground;
     Boolean shadowOfMenu;
+    Boolean shadowOfMenuOutside;   //是否有外边框阴影
     Boolean hasSeperatorLine;
     Boolean seperatorLineHasInsets;
+    Boolean notContainsSubview;   //不包含子视图在阴影背景内，可以自行点击
     Color textColor;
     Color menuBackgroundColor;
-
+    
 }OptionalConfiguration;
 
 typedef enum {
-
+    
     KYMenuViewArrowDirectionNone,
     KYMenuViewArrowDirectionUp,
     KYMenuViewArrowDirectionDown,
     KYMenuViewArrowDirectionLeft,
     KYMenuViewArrowDirectionRight,
-
+    
 } KYMenuViewArrowDirection;
 
 
@@ -86,3 +88,4 @@ typedef enum {
 
 
 @end
+
